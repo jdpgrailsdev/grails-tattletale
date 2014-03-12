@@ -13,10 +13,10 @@ By default, the [TattleTale](http://www.jboss.org/tattletale) reports will be au
 
     grails war -tattle
 
-The second approach is to add the `enableByDefault` configuration property to your application's `grails-app/conf/BuildConfig.groovy` file:
+The second approach is to add the `enabledByDefault` configuration property to your application's `grails-app/conf/BuildConfig.groovy` file:
 
 	tattletale {
-		enableByDefault = true
+		enabledByDefault = true
 	}
 
 The plugin also supports the explicit disabling of the [TattleTale](http://www.jboss.org/tattletale) reports:
